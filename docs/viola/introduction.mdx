@@ -1,0 +1,61 @@
+---
+id: introduction
+title: 상품 소개
+description: 비올라 상품을 소개합니다. 
+---
+
+비올라 상품을 소개합니다.
+
+## 공통 이미지 테스트
+
+### png 형식의 경우
+
+
+#### png img src 됨
+
+```
+import testIndex from '@shared/img/main_index.png';
+
+<img src={testIndex} /> 됨
+```
+
+import testIndex from '@shared/img/main_index.png';
+
+<img src={testIndex} /> 됨 (복사)
+
+import testIm from '@shared/img/common-cb-test.png';
+
+<img src={testIm} /> 됨
+
+
+#### png import 안됨
+
+```
+import Tin from '@shared/img/main_index.png';
+
+<Tin /> 안됨
+```
+
+
+### svg 형식의 경우 
+
+#### svg img src 안됨
+
+```
+import icoLi from '@shared/icons/ic-link.svg?url';
+
+<img src={icoLi} alt="아이콘"/> 안됨
+```
+
+
+#### svg import 됨
+
+```
+import Logo from '@shared/icons/ic-link.svg';
+
+<Logo /> 됨
+```
+
+import Logo from '@shared/icons/ic-link.svg';
+
+<Logo className='ico' /> 됨 (복사)

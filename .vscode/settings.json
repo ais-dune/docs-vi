@@ -1,0 +1,16 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "docusaurus.config.js",
+            "group": "Default"
+        },
+        {
+            "filePath": "sidebars.js",
+            "group": "Default"
+        },
+        {
+            "filePath": "docs-lab/shared/css/custom.scss",
+            "group": "Default"
+        }
+    ]
+}

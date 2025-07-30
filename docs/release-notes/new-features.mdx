@@ -1,0 +1,42 @@
+---
+id: new-features
+title: New Features
+description: 새로운 기능을 안내합니다. 
+---
+
+import CustomListItem from '@shared/components/CustomListItem'; 
+
+import ChangelogComponent from '@shared/components/ChangelogComponent';
+
+import IcLink from '@shared/icons/ic-link.svg';
+
+<div className='history_overview' id='overview_test'>
+
+<CustomListItem>
+
+<ChangelogComponent>
+
+- <code class='changelog-overview'>Product1</code>
+<code class='changelog-date'>2025-06-15</code> <code class='changelog-service'><a href="https://ais-dune.github.io/portfolio-docs/"><IcLink className="ic-s" /> Service 3.0.4</a></code>
+<br/><code class='changelog-overview2'>Product1-1</code>
+  - <code class="Feature" type="1">Feature</code> <span class="uitext">대시보드</span> &gt; <span class="uitext">신규 대시보드</span> 메뉴에서 신규 기능 추가
+
+- <code class='changelog-overview'>신규 기능 출시</code>
+<code class='changelog-date'>2025-06-12</code> <code class='changelog-service'><a href="https://ais-dune.github.io/portfolio-docs/"><IcLink className="ic-s" /> Service 3.0.3</a></code>
+<br/><code class='changelog-overview2'>Product2</code>
+  - <code class="New" type="1">New</code> <strong>Product2-1</strong> 하위 상품 출시
+  - <code class="New" type="1">New</code> <strong>Product2-2</strong> 플랫폼에서 <span class="uitext">대시보드</span> &gt; <span class="uitext">모니터링</span> 신규 메뉴 추가
+
+- <code class='changelog-overview'>신규 기능 출시</code>
+<code class='changelog-date'>2025-06-09</code> <code class='changelog-service'><a href="https://ais-dune.github.io/portfolio-docs/"><img src="/portfolio-docs/img/ic-link.svg" width="18px" height="18px" class="ico-link medium-zoom-image"></img> Service 3.0.2</a></code>
+<br/><code class='changelog-overview2'>Product3</code>
+  - <code class="New" type="1">New</code> <strong>Product3-1</strong> 플랫폼에서 <span class="uitext">대시보드</span> &gt; <span class="uitext">신규 대시보드</span> 신규 메뉴 추가
+
+
+</ChangelogComponent>
+
+</CustomListItem>
+
+</div>
+
+{/* 이미지 테스트 리액트 컴포넌트 ic-s, 배포 후 정적 경로 ico-link */}

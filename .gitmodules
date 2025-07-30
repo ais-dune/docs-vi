@@ -1,0 +1,3 @@
+[submodule "docs-lab"]
+	path = docs-lab
+	url = https://github.com/ais-dune/docs-lab.git
