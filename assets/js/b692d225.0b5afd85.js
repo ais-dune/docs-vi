@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_vi=self.webpackChunkdocs_vi||[]).push([[151],{8321:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/docs-vi/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
